@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Figtree-ExtraBold';
+    src: url('./assets/fonts/static/Figtree-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Figtree-SemiBold';
+    src: url('./assets/fonts/static/Figtree-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+body ,.category_item {
+    background-color: hsl(47, 88%, 63%);
+}
+.card {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    border: 1px solid;
+    box-shadow: 8px 8px;
+}
+.card img {
+    border-radius: 15px;
+}
+.category_item {
+    border-radius: 4px;
+}
+body {
+    font-family: 'Figtree-ExtraBold', sans-serif;
+}
+h1, h2, h3 {
+    font-family: 'Figtree-SemiBold', sans-serif;
+}
+p {
+    font-family: 'Figtree-SemiBold', sans-serif;
+    font-weight: 500;
+}
+.author_image img {
+    width:45px;
+}
+.card-text{
+  color:hsl(0, 0%, 42%);
+}
+.card:hover .card-title{
+    color : hsl(47, 88%, 63%);
+    transition: 0.5s;
+}
+.card:hover {
+    box-shadow: 15px 15px;
+    transition: 0.5s;
+}
